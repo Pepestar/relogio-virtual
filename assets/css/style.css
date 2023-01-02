@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=VT323&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,18 +10,19 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #43c6ac, #f8ffae);
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .relogio {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
-    width: 550px;
+    height: 300px;
+    width: 600px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
